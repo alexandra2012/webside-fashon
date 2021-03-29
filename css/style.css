@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-weight: 400;
+    font-family: Arial;
+    background-color: #fff;
+    color: grey;
+    line-height: 1.6;
+}
+
+/* wrapper */
+
+
+.wrapper-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 3px solid #ddd;
+    padding: 2rem 0;
+}
+
+.wrapper-icon {
+    display: flex;
+}
+
+.wrapper-icon i {
+    font-size: 2rem;
+    margin-right: 1.2rem;
+    color: inherit;
+    align-self: center;
+}
+
+.wrapper-logo img {
+    width: 24rem;
+}
+
+
+.wrapper-text span {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+}
+
+.wrapper-text h3 {
+    color: #000;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.9rem;
+}
+
+/* end of wrapper */
+
+/* nav */
+.nav {
+    display: flex;
+    max-width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+li {
+    font-size: 1.6rem;
+    margin-right: 1.5rem;
+    text-transform: capitalize;
+    transition: all .4s;
+}
+
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    transition: all .4s;
+}
+
+a.active {
+    border-bottom: 2px solid rgba(0, 0, 255, 0.342);
+    color: blue;
+    padding: 2rem;
+}
+
+a:hover {
+    color: orange;
+}
+
+.btn-blue {
+    text-decoration: none;
+    background-color: #265fb4;
+    padding: 1.2rem 3rem;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: unset;
+}
+
+.btn-blue:hover {
+    background-color: rgb(184, 224, 72);
+    color: white;
+}
+
+.btn-nav {
+    display: none;
+}
+
+.btn-hero-info {
+    width: 165px;
+    height: 43px;
+    background-color: #6cd31dcc;
+    color: white;
+    font-weight: 800;
+    border-style: none;
+}
+.btn-hero-info:hover {
+    background-color: white;
+    color: rgb(124, 19, 19);
+}
+
+.hero {
+    background-color:  rgba(0, 0, 0, 0.35);
+    background-image: url("../img/woman.jpg");
+    background-attachment:fixed;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    transform-origin: 50% 50%;
+    transform: translate(0px, 0px);
+    opacity: 1;
+    visibility: visible;
+}
+.hero-info {
+    width: 600px;
+    height:300px;
+    color: white;
+    font-size: 34px;
+    margin-left: 250px;  
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    border-top: #9bbcee solid 6px; 
+}
+[class^="col-"] {
+    width: 635px;
+    height: 331px;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-around;
+    padding-left:45px ;
+}
+p {
+    font-size: 18px;
+}
+h2 {
+    font-size: 32px;
+}
+.btn-cards {
+   width: 144px; 
+   height: 53px;
+   background-color: transparent;
+   border: 2px solid white;
+   border-radius: 30px;
+   color: white;
+}
+.btn-cards:after {
+    font-family: FontAwesome;
+    content: "→";
+    padding-left: 10px;
+}
+
+.col-1 {
+    background-color: #0d35a3;
+}
+
+.col-2 {
+    background-color: #9e5a0d;
+}
+.col-3 {
+    background-color:#096637;
+}

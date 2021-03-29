@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    .btn-nav {
+        display: flex;
+    }
+
+    .nav ul {
+        display: none;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        background-color: #000;
+        height: 100vh;
+        z-index: 9999;
+        width: 30rem;
+        top: 0;
+        left: 0;
+    }
+
+
+
+}
